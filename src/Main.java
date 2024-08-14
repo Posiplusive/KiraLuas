@@ -30,18 +30,21 @@ public class Main {
                 System.out.print("Masukkan Lebar: ");
                 length = input.nextDouble();
                 System.out.print(x.format(height * length));
+                break;
             case 2:
                 System.out.print("Masukkan sisi sejajar 1: ");
                 side1 = input.nextDouble();
-                System.out.print("Masukkan sisi sejajar 2");
+                System.out.print("Masukkan sisi sejajar 2: ");
                 side2 = input.nextDouble();
                 System.out.print("Masukkan tinggi: ");
                 height = input.nextDouble();
                 System.out.print(x.format(0.5 * (side1 * side2) * height));
+                break;
             case 3:
                 System.out.print("Masukkan jejari: ");
                 finger = input.nextDouble();
                 System.out.print(x.format(Math.PI * (finger * finger)));
+                break;
         }
     }
 }
